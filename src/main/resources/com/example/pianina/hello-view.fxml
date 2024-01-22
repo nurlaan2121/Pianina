@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="746.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pianina.HelloController">
+    <children>
+        <ImageView fitHeight="385.0" fitWidth="761.0" layoutX="-10.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/ПИАНИНА.png" />
+            </image>
+        </ImageView>
+        <Button fx:id="dobtn" layoutX="35.0" layoutY="147.0" mnemonicParsing="false" opacity="0.0" prefHeight="238.0" prefWidth="61.0" />
+        <Button fx:id="rebtn" layoutX="145.0" layoutY="147.0" mnemonicParsing="false" opacity="0.0" prefHeight="238.0" prefWidth="61.0" />
+        <Button fx:id="mibtn" layoutX="256.0" layoutY="147.0" mnemonicParsing="false" opacity="0.01" prefHeight="238.0" prefWidth="61.0" />
+        <Button fx:id="fabtn" layoutX="368.0" layoutY="147.0" mnemonicParsing="false" opacity="0.0" prefHeight="238.0" prefWidth="61.0" />
+        <Button fx:id="solbtn" layoutX="538.0" layoutY="147.0" mnemonicParsing="false" opacity="0.04" prefHeight="238.0" prefWidth="61.0" />
+        <Button fx:id="lyabtn" layoutX="647.0" layoutY="147.0" mnemonicParsing="false" opacity="0.0" prefHeight="238.0" prefWidth="61.0" />
+        <Label layoutX="156.0" layoutY="127.0" prefHeight="20.0" prefWidth="39.0" text="РЕ-D" />
+        <Label layoutX="46.0" layoutY="127.0" prefHeight="20.0" prefWidth="39.0" text="ДО-S" />
+        <Label layoutX="262.0" layoutY="129.0" prefHeight="20.0" prefWidth="39.0" text="МИ-F" />
+        <Label layoutX="382.0" layoutY="130.0" prefHeight="20.0" prefWidth="39.0" text="ФА-G" />
+        <Label layoutX="538.0" layoutY="127.0" prefHeight="20.0" prefWidth="49.0" text="СОЛЬ-H" />
+        <Label layoutX="658.0" layoutY="127.0" prefHeight="20.0" prefWidth="39.0" text="ЛЯ-J" />
+      <Button fx:id="sibtn" layoutX="421.0" layoutY="150.0" mnemonicParsing="false" opacity="0.0" prefHeight="238.0" prefWidth="61.0" />
+      <Label layoutX="106.0" layoutY="127.0" prefHeight="20.0" prefWidth="39.0" text="СИ-K" />
+    </children>
+</AnchorPane>
